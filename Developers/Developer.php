@@ -20,9 +20,4 @@ abstract class Developer
         return $this->salary->getSalary();
     }
 
-    function __toString()
-    {
-        return $this->salary->getSalary() . $this->secondName;
-    }
-
 }
