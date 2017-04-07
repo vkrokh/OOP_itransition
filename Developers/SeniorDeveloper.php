@@ -1,6 +1,6 @@
 <?php
 
-class SeniorDeveloper extends Developer
+class SeniorDeveloper extends Employee
 {
 
 }

@@ -1,6 +1,6 @@
 <?php
 
-abstract class Developer
+abstract class Employee
 {
     protected $name;
     protected $secondName;

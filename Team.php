@@ -3,9 +3,9 @@
 class Team
 {
     private $name;
-    private $listOfDevelopers = array();
+    private $developers = [];
 
-    public function __construct(String $name)
+    public function __construct(string $name)
     {
         $this->name = $name;
     }
@@ -13,15 +13,15 @@ class Team
     public function getTeamSalary()
     {
         $teamSalary = 0;
-        foreach ($this->listOfDevelopers as $developer) {
+        foreach ($this->developers as $developer) {
             $teamSalary += $developer->getSalary();
         }
         return $teamSalary;
     }
 
-    public function addDeveloper(Developer $developer)
+    public function addDeveloper(Employee $developer)
     {
-        array_push($this->listOfDevelopers, $developer);
+        array_push($this->developers, $developer);
     }
 
 }

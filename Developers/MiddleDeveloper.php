@@ -1,6 +1,6 @@
 <?php
 
-class MiddleDeveloper extends Developer
+class MiddleDeveloper extends Employee
 {
 
 }
